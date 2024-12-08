@@ -13,7 +13,7 @@ binary compiled on Aug 15 2023 at 14:55:58
 using control file: "freyberg.pst"
 in directory: "C:\pest\A\A1\reimagined-adventure\template"
 on host: "DESKTOP-AIRQM2M"
-started at 11/08/24 11:52:46
+started at 12/08/24 15:17:24
 
 ...reading external file 'freyberg.pargp_data.csv'
 ...header line: PARGPNME,INCTYP,DERINC,DERINCLB,FORCEN,DERINCMUL,DERMTHD,SPLITTHRESH,SPLITRELDIFF,SPLITACTION
@@ -1186,6 +1186,6 @@ oname:heads.csv_otype:lst_usecol:trgw-0-15-16         0         0         0     
 
 
 pestpp-ies analysis complete...
-started at 11/08/24 11:52:46
-finished at 11/08/24 11:52:49
+started at 12/08/24 15:17:24
+finished at 12/08/24 15:17:27
 took 0.0333333 minutes
