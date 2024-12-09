@@ -13,7 +13,7 @@ binary compiled on Aug 15 2023 at 14:55:58
 using control file: "freyberg.pst"
 in directory: "C:\pest\A\A1\reimagined-adventure\template"
 on host: "DESKTOP-AIRQM2M"
-started at 12/08/24 15:17:24
+started at 12/09/24 13:42:28
 
 ...reading external file 'freyberg.pargp_data.csv'
 ...header line: PARGPNME,INCTYP,DERINC,DERINCLB,FORCEN,DERINCMUL,DERMTHD,SPLITTHRESH,SPLITRELDIFF,SPLITACTION
@@ -23,7 +23,7 @@ started at 12/08/24 15:17:24
 ...read 801 lines from external file
 ...reading external file 'freyberg.obs_data.csv'
 ...header line: OBSNME,OBSVAL,WEIGHT,OBGNME
-...read 26 lines from external file
+...read 326 lines from external file
 ...reading external file 'freyberg.tplfile_data.csv'
 ...header line: PEST_FILE,MODEL_FILE
 ...read 2 lines from external file
@@ -52,8 +52,8 @@ noptmax = 0, resetting max_run_fail = 1
 Case dimensions:- 
     Number of parameters = 800
     Number of adjustable parameters = 800
-    Number of observations = 25
-    Number of non-zero weighted observations = 25
+    Number of observations = 325
+    Number of non-zero weighted observations = 325
     Number of prior estimates = 0
 
 PEST Control Information
@@ -1112,6 +1112,31 @@ pname:p_inst:0_ptype:gr_pstyle:m_i:39_j:19_x:39.00_y:19.00 log                  
 
 Observation information
 NAME                                                                     VALUE                                         GROUP              WEIGHT
+oname:heads.csv_otype:lst_usecol:trgw-0-13-10_time:3652.5              34.7974 oname:heads.csv_otype:lst_usecol:trgw-0-13-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-13-10_time:3683.5              34.7685 oname:heads.csv_otype:lst_usecol:trgw-0-13-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-13-10_time:3712.5              34.8212 oname:heads.csv_otype:lst_usecol:trgw-0-13-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-13-10_time:3743.5               34.921 oname:heads.csv_otype:lst_usecol:trgw-0-13-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-13-10_time:3773.5              35.0084 oname:heads.csv_otype:lst_usecol:trgw-0-13-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-13-10_time:3804.5              35.0424 oname:heads.csv_otype:lst_usecol:trgw-0-13-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-13-10_time:3834.5              34.9949 oname:heads.csv_otype:lst_usecol:trgw-0-13-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-13-10_time:3865.5              34.8623 oname:heads.csv_otype:lst_usecol:trgw-0-13-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-13-10_time:3896.5              34.6729 oname:heads.csv_otype:lst_usecol:trgw-0-13-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-13-10_time:3926.5              34.4752 oname:heads.csv_otype:lst_usecol:trgw-0-13-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-13-10_time:3957.5              34.3055 oname:heads.csv_otype:lst_usecol:trgw-0-13-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-13-10_time:3987.5              34.2089 oname:heads.csv_otype:lst_usecol:trgw-0-13-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-13-10_time:4018.5              34.2024 oname:heads.csv_otype:lst_usecol:trgw-0-13-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-13-10_time:4049.5              34.2825 oname:heads.csv_otype:lst_usecol:trgw-0-13-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-13-10_time:4077.5              34.4131 oname:heads.csv_otype:lst_usecol:trgw-0-13-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-13-10_time:4108.5              34.5781 oname:heads.csv_otype:lst_usecol:trgw-0-13-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-13-10_time:4138.5              34.7105 oname:heads.csv_otype:lst_usecol:trgw-0-13-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-13-10_time:4169.5              34.7772 oname:heads.csv_otype:lst_usecol:trgw-0-13-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-13-10_time:4199.5              34.7522 oname:heads.csv_otype:lst_usecol:trgw-0-13-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-13-10_time:4230.5              34.6365 oname:heads.csv_otype:lst_usecol:trgw-0-13-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-13-10_time:4261.5                34.46 oname:heads.csv_otype:lst_usecol:trgw-0-13-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-13-10_time:4291.5              34.2724 oname:heads.csv_otype:lst_usecol:trgw-0-13-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-13-10_time:4322.5              34.1116 oname:heads.csv_otype:lst_usecol:trgw-0-13-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-13-10_time:4352.5              34.0271 oname:heads.csv_otype:lst_usecol:trgw-0-13-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-13-10_time:4383.5              34.0741 oname:heads.csv_otype:lst_usecol:trgw-0-13-10                   1
 oname:heads.csv_otype:lst_usecol:trgw-0-15-16_time:3652.5              34.3787 oname:heads.csv_otype:lst_usecol:trgw-0-15-16                   1
 oname:heads.csv_otype:lst_usecol:trgw-0-15-16_time:3683.5              34.3595 oname:heads.csv_otype:lst_usecol:trgw-0-15-16                   1
 oname:heads.csv_otype:lst_usecol:trgw-0-15-16_time:3712.5              34.3997 oname:heads.csv_otype:lst_usecol:trgw-0-15-16                   1
@@ -1137,6 +1162,281 @@ oname:heads.csv_otype:lst_usecol:trgw-0-15-16_time:4291.5              34.0112 o
 oname:heads.csv_otype:lst_usecol:trgw-0-15-16_time:4322.5              33.9091 oname:heads.csv_otype:lst_usecol:trgw-0-15-16                   1
 oname:heads.csv_otype:lst_usecol:trgw-0-15-16_time:4352.5              33.8648 oname:heads.csv_otype:lst_usecol:trgw-0-15-16                   1
 oname:heads.csv_otype:lst_usecol:trgw-0-15-16_time:4383.5              33.9156 oname:heads.csv_otype:lst_usecol:trgw-0-15-16                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-15_time:3652.5               34.6265  oname:heads.csv_otype:lst_usecol:trgw-0-2-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-15_time:3683.5               34.6336  oname:heads.csv_otype:lst_usecol:trgw-0-2-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-15_time:3712.5               34.6844  oname:heads.csv_otype:lst_usecol:trgw-0-2-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-15_time:3743.5               34.7562  oname:heads.csv_otype:lst_usecol:trgw-0-2-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-15_time:3773.5               34.8133  oname:heads.csv_otype:lst_usecol:trgw-0-2-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-15_time:3804.5               34.8332  oname:heads.csv_otype:lst_usecol:trgw-0-2-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-15_time:3834.5               34.8014  oname:heads.csv_otype:lst_usecol:trgw-0-2-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-15_time:3865.5               34.7177  oname:heads.csv_otype:lst_usecol:trgw-0-2-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-15_time:3896.5               34.6023  oname:heads.csv_otype:lst_usecol:trgw-0-2-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-15_time:3926.5               34.4853  oname:heads.csv_otype:lst_usecol:trgw-0-2-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-15_time:3957.5               34.3892  oname:heads.csv_otype:lst_usecol:trgw-0-2-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-15_time:3987.5               34.3417  oname:heads.csv_otype:lst_usecol:trgw-0-2-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-15_time:4018.5               34.3513  oname:heads.csv_otype:lst_usecol:trgw-0-2-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-15_time:4049.5               34.4113  oname:heads.csv_otype:lst_usecol:trgw-0-2-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-15_time:4077.5               34.4978  oname:heads.csv_otype:lst_usecol:trgw-0-2-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-15_time:4108.5               34.6008  oname:heads.csv_otype:lst_usecol:trgw-0-2-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-15_time:4138.5               34.6797  oname:heads.csv_otype:lst_usecol:trgw-0-2-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-15_time:4169.5               34.7158  oname:heads.csv_otype:lst_usecol:trgw-0-2-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-15_time:4199.5               34.6954  oname:heads.csv_otype:lst_usecol:trgw-0-2-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-15_time:4230.5               34.6208  oname:heads.csv_otype:lst_usecol:trgw-0-2-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-15_time:4261.5               34.5127  oname:heads.csv_otype:lst_usecol:trgw-0-2-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-15_time:4291.5               34.4019  oname:heads.csv_otype:lst_usecol:trgw-0-2-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-15_time:4322.5               34.3112  oname:heads.csv_otype:lst_usecol:trgw-0-2-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-15_time:4352.5               34.2687  oname:heads.csv_otype:lst_usecol:trgw-0-2-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-15_time:4383.5               34.3073  oname:heads.csv_otype:lst_usecol:trgw-0-2-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-9_time:3652.5                35.5947   oname:heads.csv_otype:lst_usecol:trgw-0-2-9                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-9_time:3683.5                35.6087   oname:heads.csv_otype:lst_usecol:trgw-0-2-9                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-9_time:3712.5                35.6962   oname:heads.csv_otype:lst_usecol:trgw-0-2-9                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-9_time:3743.5                35.8296   oname:heads.csv_otype:lst_usecol:trgw-0-2-9                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-9_time:3773.5                35.9488   oname:heads.csv_otype:lst_usecol:trgw-0-2-9                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-9_time:3804.5                36.0124   oname:heads.csv_otype:lst_usecol:trgw-0-2-9                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-9_time:3834.5                 35.986   oname:heads.csv_otype:lst_usecol:trgw-0-2-9                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-9_time:3865.5                35.8617   oname:heads.csv_otype:lst_usecol:trgw-0-2-9                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-9_time:3896.5                35.6648   oname:heads.csv_otype:lst_usecol:trgw-0-2-9                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-9_time:3926.5                35.4455   oname:heads.csv_otype:lst_usecol:trgw-0-2-9                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-9_time:3957.5                35.2428   oname:heads.csv_otype:lst_usecol:trgw-0-2-9                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-9_time:3987.5                35.1149   oname:heads.csv_otype:lst_usecol:trgw-0-2-9                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-9_time:4018.5                 35.084   oname:heads.csv_otype:lst_usecol:trgw-0-2-9                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-9_time:4049.5                35.1511   oname:heads.csv_otype:lst_usecol:trgw-0-2-9                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-9_time:4077.5                35.2813   oname:heads.csv_otype:lst_usecol:trgw-0-2-9                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-9_time:4108.5                35.4592   oname:heads.csv_otype:lst_usecol:trgw-0-2-9                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-9_time:4138.5                35.6131   oname:heads.csv_otype:lst_usecol:trgw-0-2-9                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-9_time:4169.5                35.7048   oname:heads.csv_otype:lst_usecol:trgw-0-2-9                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-9_time:4199.5                35.6996   oname:heads.csv_otype:lst_usecol:trgw-0-2-9                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-9_time:4230.5                35.5928   oname:heads.csv_otype:lst_usecol:trgw-0-2-9                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-9_time:4261.5                35.4104   oname:heads.csv_otype:lst_usecol:trgw-0-2-9                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-9_time:4291.5                35.2034   oname:heads.csv_otype:lst_usecol:trgw-0-2-9                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-9_time:4322.5                35.0123   oname:heads.csv_otype:lst_usecol:trgw-0-2-9                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-9_time:4352.5                34.8951   oname:heads.csv_otype:lst_usecol:trgw-0-2-9                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-2-9_time:4383.5                 34.915   oname:heads.csv_otype:lst_usecol:trgw-0-2-9                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-21-10_time:3652.5              34.7134 oname:heads.csv_otype:lst_usecol:trgw-0-21-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-21-10_time:3683.5               34.679 oname:heads.csv_otype:lst_usecol:trgw-0-21-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-21-10_time:3712.5              34.7262 oname:heads.csv_otype:lst_usecol:trgw-0-21-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-21-10_time:3743.5              34.8228 oname:heads.csv_otype:lst_usecol:trgw-0-21-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-21-10_time:3773.5              34.9095 oname:heads.csv_otype:lst_usecol:trgw-0-21-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-21-10_time:3804.5              34.9439 oname:heads.csv_otype:lst_usecol:trgw-0-21-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-21-10_time:3834.5              34.8961 oname:heads.csv_otype:lst_usecol:trgw-0-21-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-21-10_time:3865.5              34.7605 oname:heads.csv_otype:lst_usecol:trgw-0-21-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-21-10_time:3896.5              34.5648 oname:heads.csv_otype:lst_usecol:trgw-0-21-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-21-10_time:3926.5              34.3579 oname:heads.csv_otype:lst_usecol:trgw-0-21-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-21-10_time:3957.5              34.1769 oname:heads.csv_otype:lst_usecol:trgw-0-21-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-21-10_time:3987.5              34.0284 oname:heads.csv_otype:lst_usecol:trgw-0-21-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-21-10_time:4018.5              33.9699 oname:heads.csv_otype:lst_usecol:trgw-0-21-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-21-10_time:4049.5              34.0115 oname:heads.csv_otype:lst_usecol:trgw-0-21-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-21-10_time:4077.5              34.1182 oname:heads.csv_otype:lst_usecol:trgw-0-21-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-21-10_time:4108.5              34.2674 oname:heads.csv_otype:lst_usecol:trgw-0-21-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-21-10_time:4138.5              34.3916 oname:heads.csv_otype:lst_usecol:trgw-0-21-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-21-10_time:4169.5              34.4538 oname:heads.csv_otype:lst_usecol:trgw-0-21-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-21-10_time:4199.5              34.4255 oname:heads.csv_otype:lst_usecol:trgw-0-21-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-21-10_time:4230.5              34.3048 oname:heads.csv_otype:lst_usecol:trgw-0-21-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-21-10_time:4261.5              34.1205 oname:heads.csv_otype:lst_usecol:trgw-0-21-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-21-10_time:4291.5              33.9225 oname:heads.csv_otype:lst_usecol:trgw-0-21-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-21-10_time:4322.5              33.7493 oname:heads.csv_otype:lst_usecol:trgw-0-21-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-21-10_time:4352.5              33.6528 oname:heads.csv_otype:lst_usecol:trgw-0-21-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-21-10_time:4383.5              33.6901 oname:heads.csv_otype:lst_usecol:trgw-0-21-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-22-15_time:3652.5              34.2396 oname:heads.csv_otype:lst_usecol:trgw-0-22-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-22-15_time:3683.5              34.2058 oname:heads.csv_otype:lst_usecol:trgw-0-22-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-22-15_time:3712.5              34.2405 oname:heads.csv_otype:lst_usecol:trgw-0-22-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-22-15_time:3743.5              34.3036 oname:heads.csv_otype:lst_usecol:trgw-0-22-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-22-15_time:3773.5              34.3548 oname:heads.csv_otype:lst_usecol:trgw-0-22-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-22-15_time:3804.5              34.3683 oname:heads.csv_otype:lst_usecol:trgw-0-22-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-22-15_time:3834.5              34.3301 oname:heads.csv_otype:lst_usecol:trgw-0-22-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-22-15_time:3865.5              34.2373 oname:heads.csv_otype:lst_usecol:trgw-0-22-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-22-15_time:3896.5              34.1133 oname:heads.csv_otype:lst_usecol:trgw-0-22-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-22-15_time:3926.5              33.9891 oname:heads.csv_otype:lst_usecol:trgw-0-22-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-22-15_time:3957.5              33.8881 oname:heads.csv_otype:lst_usecol:trgw-0-22-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-22-15_time:3987.5              33.8311 oname:heads.csv_otype:lst_usecol:trgw-0-22-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-22-15_time:4018.5              33.8305 oname:heads.csv_otype:lst_usecol:trgw-0-22-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-22-15_time:4049.5              33.8833 oname:heads.csv_otype:lst_usecol:trgw-0-22-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-22-15_time:4077.5               33.966 oname:heads.csv_otype:lst_usecol:trgw-0-22-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-22-15_time:4108.5               34.066 oname:heads.csv_otype:lst_usecol:trgw-0-22-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-22-15_time:4138.5              34.1414 oname:heads.csv_otype:lst_usecol:trgw-0-22-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-22-15_time:4169.5              34.1722 oname:heads.csv_otype:lst_usecol:trgw-0-22-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-22-15_time:4199.5              34.1454 oname:heads.csv_otype:lst_usecol:trgw-0-22-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-22-15_time:4230.5              34.0617 oname:heads.csv_otype:lst_usecol:trgw-0-22-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-22-15_time:4261.5              33.9446 oname:heads.csv_otype:lst_usecol:trgw-0-22-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-22-15_time:4291.5              33.8258 oname:heads.csv_otype:lst_usecol:trgw-0-22-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-22-15_time:4322.5              33.7293 oname:heads.csv_otype:lst_usecol:trgw-0-22-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-22-15_time:4352.5              33.6846 oname:heads.csv_otype:lst_usecol:trgw-0-22-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-22-15_time:4383.5              33.7249 oname:heads.csv_otype:lst_usecol:trgw-0-22-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-24-4_time:3652.5               35.4528  oname:heads.csv_otype:lst_usecol:trgw-0-24-4                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-24-4_time:3683.5               35.4361  oname:heads.csv_otype:lst_usecol:trgw-0-24-4                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-24-4_time:3712.5               35.5007  oname:heads.csv_otype:lst_usecol:trgw-0-24-4                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-24-4_time:3743.5               35.6245  oname:heads.csv_otype:lst_usecol:trgw-0-24-4                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-24-4_time:3773.5               35.7446  oname:heads.csv_otype:lst_usecol:trgw-0-24-4                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-24-4_time:3804.5               35.8118  oname:heads.csv_otype:lst_usecol:trgw-0-24-4                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-24-4_time:3834.5                35.783  oname:heads.csv_otype:lst_usecol:trgw-0-24-4                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-24-4_time:3865.5               35.6436  oname:heads.csv_otype:lst_usecol:trgw-0-24-4                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-24-4_time:3896.5               35.4171  oname:heads.csv_otype:lst_usecol:trgw-0-24-4                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-24-4_time:3926.5               35.1578  oname:heads.csv_otype:lst_usecol:trgw-0-24-4                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-24-4_time:3957.5               34.9082  oname:heads.csv_otype:lst_usecol:trgw-0-24-4                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-24-4_time:3987.5               33.8064  oname:heads.csv_otype:lst_usecol:trgw-0-24-4                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-24-4_time:4018.5               33.5264  oname:heads.csv_otype:lst_usecol:trgw-0-24-4                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-24-4_time:4049.5               33.4541  oname:heads.csv_otype:lst_usecol:trgw-0-24-4                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-24-4_time:4077.5               33.5077  oname:heads.csv_otype:lst_usecol:trgw-0-24-4                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-24-4_time:4108.5               33.6421  oname:heads.csv_otype:lst_usecol:trgw-0-24-4                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-24-4_time:4138.5               33.7779  oname:heads.csv_otype:lst_usecol:trgw-0-24-4                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-24-4_time:4169.5               33.8609  oname:heads.csv_otype:lst_usecol:trgw-0-24-4                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-24-4_time:4199.5               33.8438  oname:heads.csv_otype:lst_usecol:trgw-0-24-4                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-24-4_time:4230.5               33.7117  oname:heads.csv_otype:lst_usecol:trgw-0-24-4                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-24-4_time:4261.5               33.4876  oname:heads.csv_otype:lst_usecol:trgw-0-24-4                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-24-4_time:4291.5               33.2277  oname:heads.csv_otype:lst_usecol:trgw-0-24-4                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-24-4_time:4322.5               32.9765  oname:heads.csv_otype:lst_usecol:trgw-0-24-4                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-24-4_time:4352.5               32.8063  oname:heads.csv_otype:lst_usecol:trgw-0-24-4                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-24-4_time:4383.5               32.7921  oname:heads.csv_otype:lst_usecol:trgw-0-24-4                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-26-6_time:3652.5               35.0663  oname:heads.csv_otype:lst_usecol:trgw-0-26-6                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-26-6_time:3683.5               35.0084  oname:heads.csv_otype:lst_usecol:trgw-0-26-6                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-26-6_time:3712.5               35.0551  oname:heads.csv_otype:lst_usecol:trgw-0-26-6                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-26-6_time:3743.5               35.1663  oname:heads.csv_otype:lst_usecol:trgw-0-26-6                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-26-6_time:3773.5               35.2742  oname:heads.csv_otype:lst_usecol:trgw-0-26-6                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-26-6_time:3804.5               35.3288  oname:heads.csv_otype:lst_usecol:trgw-0-26-6                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-26-6_time:3834.5               35.2906  oname:heads.csv_otype:lst_usecol:trgw-0-26-6                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-26-6_time:3865.5               35.1476  oname:heads.csv_otype:lst_usecol:trgw-0-26-6                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-26-6_time:3896.5               34.9255  oname:heads.csv_otype:lst_usecol:trgw-0-26-6                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-26-6_time:3926.5               34.6783  oname:heads.csv_otype:lst_usecol:trgw-0-26-6                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-26-6_time:3957.5               34.4475  oname:heads.csv_otype:lst_usecol:trgw-0-26-6                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-26-6_time:3987.5               34.0982  oname:heads.csv_otype:lst_usecol:trgw-0-26-6                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-26-6_time:4018.5               33.9177  oname:heads.csv_otype:lst_usecol:trgw-0-26-6                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-26-6_time:4049.5               33.8895  oname:heads.csv_otype:lst_usecol:trgw-0-26-6                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-26-6_time:4077.5               33.9643  oname:heads.csv_otype:lst_usecol:trgw-0-26-6                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-26-6_time:4108.5               34.1062  oname:heads.csv_otype:lst_usecol:trgw-0-26-6                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-26-6_time:4138.5               34.2394  oname:heads.csv_otype:lst_usecol:trgw-0-26-6                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-26-6_time:4169.5               34.3155  oname:heads.csv_otype:lst_usecol:trgw-0-26-6                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-26-6_time:4199.5               34.2936  oname:heads.csv_otype:lst_usecol:trgw-0-26-6                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-26-6_time:4230.5               34.1637  oname:heads.csv_otype:lst_usecol:trgw-0-26-6                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-26-6_time:4261.5               33.9516  oname:heads.csv_otype:lst_usecol:trgw-0-26-6                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-26-6_time:4291.5               33.7118  oname:heads.csv_otype:lst_usecol:trgw-0-26-6                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-26-6_time:4322.5               33.4872  oname:heads.csv_otype:lst_usecol:trgw-0-26-6                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-26-6_time:4352.5               33.3434  oname:heads.csv_otype:lst_usecol:trgw-0-26-6                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-26-6_time:4383.5                33.349  oname:heads.csv_otype:lst_usecol:trgw-0-26-6                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-29-15_time:3652.5              34.1662 oname:heads.csv_otype:lst_usecol:trgw-0-29-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-29-15_time:3683.5              34.1561 oname:heads.csv_otype:lst_usecol:trgw-0-29-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-29-15_time:3712.5              34.1951 oname:heads.csv_otype:lst_usecol:trgw-0-29-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-29-15_time:3743.5              34.2585 oname:heads.csv_otype:lst_usecol:trgw-0-29-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-29-15_time:3773.5              34.3086 oname:heads.csv_otype:lst_usecol:trgw-0-29-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-29-15_time:3804.5              34.3208 oname:heads.csv_otype:lst_usecol:trgw-0-29-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-29-15_time:3834.5              34.2819 oname:heads.csv_otype:lst_usecol:trgw-0-29-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-29-15_time:3865.5              34.1891 oname:heads.csv_otype:lst_usecol:trgw-0-29-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-29-15_time:3896.5              34.0665 oname:heads.csv_otype:lst_usecol:trgw-0-29-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-29-15_time:3926.5              33.9446 oname:heads.csv_otype:lst_usecol:trgw-0-29-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-29-15_time:3957.5              33.8463 oname:heads.csv_otype:lst_usecol:trgw-0-29-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-29-15_time:3987.5              33.7932 oname:heads.csv_otype:lst_usecol:trgw-0-29-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-29-15_time:4018.5              33.7953 oname:heads.csv_otype:lst_usecol:trgw-0-29-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-29-15_time:4049.5              33.8487 oname:heads.csv_otype:lst_usecol:trgw-0-29-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-29-15_time:4077.5              33.9301 oname:heads.csv_otype:lst_usecol:trgw-0-29-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-29-15_time:4108.5              34.0271 oname:heads.csv_otype:lst_usecol:trgw-0-29-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-29-15_time:4138.5               34.099 oname:heads.csv_otype:lst_usecol:trgw-0-29-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-29-15_time:4169.5              34.1262 oname:heads.csv_otype:lst_usecol:trgw-0-29-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-29-15_time:4199.5              34.0971 oname:heads.csv_otype:lst_usecol:trgw-0-29-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-29-15_time:4230.5              34.0123 oname:heads.csv_otype:lst_usecol:trgw-0-29-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-29-15_time:4261.5              33.8957 oname:heads.csv_otype:lst_usecol:trgw-0-29-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-29-15_time:4291.5              33.7784 oname:heads.csv_otype:lst_usecol:trgw-0-29-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-29-15_time:4322.5              33.6838 oname:heads.csv_otype:lst_usecol:trgw-0-29-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-29-15_time:4352.5              33.6408 oname:heads.csv_otype:lst_usecol:trgw-0-29-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-29-15_time:4383.5               33.682 oname:heads.csv_otype:lst_usecol:trgw-0-29-15                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-3-8_time:3652.5                35.7155   oname:heads.csv_otype:lst_usecol:trgw-0-3-8                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-3-8_time:3683.5                35.7288   oname:heads.csv_otype:lst_usecol:trgw-0-3-8                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-3-8_time:3712.5                35.8182   oname:heads.csv_otype:lst_usecol:trgw-0-3-8                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-3-8_time:3743.5                35.9564   oname:heads.csv_otype:lst_usecol:trgw-0-3-8                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-3-8_time:3773.5                36.0817   oname:heads.csv_otype:lst_usecol:trgw-0-3-8                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-3-8_time:3804.5                 36.151   oname:heads.csv_otype:lst_usecol:trgw-0-3-8                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-3-8_time:3834.5                36.1275   oname:heads.csv_otype:lst_usecol:trgw-0-3-8                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-3-8_time:3865.5                36.0022   oname:heads.csv_otype:lst_usecol:trgw-0-3-8                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-3-8_time:3896.5                35.7997   oname:heads.csv_otype:lst_usecol:trgw-0-3-8                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-3-8_time:3926.5                35.5716   oname:heads.csv_otype:lst_usecol:trgw-0-3-8                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-3-8_time:3957.5                35.3582   oname:heads.csv_otype:lst_usecol:trgw-0-3-8                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-3-8_time:3987.5                35.2204   oname:heads.csv_otype:lst_usecol:trgw-0-3-8                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-3-8_time:4018.5                35.1818   oname:heads.csv_otype:lst_usecol:trgw-0-3-8                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-3-8_time:4049.5                35.2453   oname:heads.csv_otype:lst_usecol:trgw-0-3-8                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-3-8_time:4077.5                 35.376   oname:heads.csv_otype:lst_usecol:trgw-0-3-8                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-3-8_time:4108.5                35.5584   oname:heads.csv_otype:lst_usecol:trgw-0-3-8                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-3-8_time:4138.5                35.7185   oname:heads.csv_otype:lst_usecol:trgw-0-3-8                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-3-8_time:4169.5                35.8161   oname:heads.csv_otype:lst_usecol:trgw-0-3-8                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-3-8_time:4199.5                35.8143   oname:heads.csv_otype:lst_usecol:trgw-0-3-8                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-3-8_time:4230.5                35.7069   oname:heads.csv_otype:lst_usecol:trgw-0-3-8                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-3-8_time:4261.5                35.5195   oname:heads.csv_otype:lst_usecol:trgw-0-3-8                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-3-8_time:4291.5                35.3043   oname:heads.csv_otype:lst_usecol:trgw-0-3-8                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-3-8_time:4322.5                35.1029   oname:heads.csv_otype:lst_usecol:trgw-0-3-8                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-3-8_time:4352.5                34.9763   oname:heads.csv_otype:lst_usecol:trgw-0-3-8                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-3-8_time:4383.5                34.9904   oname:heads.csv_otype:lst_usecol:trgw-0-3-8                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-33-7_time:3652.5               34.6362  oname:heads.csv_otype:lst_usecol:trgw-0-33-7                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-33-7_time:3683.5               34.6044  oname:heads.csv_otype:lst_usecol:trgw-0-33-7                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-33-7_time:3712.5               34.6541  oname:heads.csv_otype:lst_usecol:trgw-0-33-7                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-33-7_time:3743.5               34.7542  oname:heads.csv_otype:lst_usecol:trgw-0-33-7                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-33-7_time:3773.5                34.844  oname:heads.csv_otype:lst_usecol:trgw-0-33-7                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-33-7_time:3804.5               34.8801  oname:heads.csv_otype:lst_usecol:trgw-0-33-7                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-33-7_time:3834.5               34.8317  oname:heads.csv_otype:lst_usecol:trgw-0-33-7                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-33-7_time:3865.5               34.6933  oname:heads.csv_otype:lst_usecol:trgw-0-33-7                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-33-7_time:3896.5               34.4937  oname:heads.csv_otype:lst_usecol:trgw-0-33-7                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-33-7_time:3926.5               34.2814  oname:heads.csv_otype:lst_usecol:trgw-0-33-7                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-33-7_time:3957.5               34.0933  oname:heads.csv_otype:lst_usecol:trgw-0-33-7                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-33-7_time:3987.5               33.9572  oname:heads.csv_otype:lst_usecol:trgw-0-33-7                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-33-7_time:4018.5               33.9016  oname:heads.csv_otype:lst_usecol:trgw-0-33-7                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-33-7_time:4049.5               33.9369  oname:heads.csv_otype:lst_usecol:trgw-0-33-7                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-33-7_time:4077.5               34.0356  oname:heads.csv_otype:lst_usecol:trgw-0-33-7                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-33-7_time:4108.5                34.177  oname:heads.csv_otype:lst_usecol:trgw-0-33-7                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-33-7_time:4138.5               34.2956  oname:heads.csv_otype:lst_usecol:trgw-0-33-7                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-33-7_time:4169.5                34.354  oname:heads.csv_otype:lst_usecol:trgw-0-33-7                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-33-7_time:4199.5               34.3223  oname:heads.csv_otype:lst_usecol:trgw-0-33-7                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-33-7_time:4230.5               34.1979  oname:heads.csv_otype:lst_usecol:trgw-0-33-7                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-33-7_time:4261.5               34.0084  oname:heads.csv_otype:lst_usecol:trgw-0-33-7                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-33-7_time:4291.5               33.8041  oname:heads.csv_otype:lst_usecol:trgw-0-33-7                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-33-7_time:4322.5               33.6233  oname:heads.csv_otype:lst_usecol:trgw-0-33-7                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-33-7_time:4352.5               33.5195  oname:heads.csv_otype:lst_usecol:trgw-0-33-7                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-33-7_time:4383.5               33.5512  oname:heads.csv_otype:lst_usecol:trgw-0-33-7                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-34-10_time:3652.5              34.3419 oname:heads.csv_otype:lst_usecol:trgw-0-34-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-34-10_time:3683.5              34.2851 oname:heads.csv_otype:lst_usecol:trgw-0-34-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-34-10_time:3712.5              34.3284 oname:heads.csv_otype:lst_usecol:trgw-0-34-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-34-10_time:3743.5              34.4161 oname:heads.csv_otype:lst_usecol:trgw-0-34-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-34-10_time:3773.5              34.4905 oname:heads.csv_otype:lst_usecol:trgw-0-34-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-34-10_time:3804.5              34.5138 oname:heads.csv_otype:lst_usecol:trgw-0-34-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-34-10_time:3834.5              34.4628 oname:heads.csv_otype:lst_usecol:trgw-0-34-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-34-10_time:3865.5               34.336 oname:heads.csv_otype:lst_usecol:trgw-0-34-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-34-10_time:3896.5              34.1619 oname:heads.csv_otype:lst_usecol:trgw-0-34-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-34-10_time:3926.5              33.9834 oname:heads.csv_otype:lst_usecol:trgw-0-34-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-34-10_time:3957.5              33.8328 oname:heads.csv_otype:lst_usecol:trgw-0-34-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-34-10_time:3987.5               33.741 oname:heads.csv_otype:lst_usecol:trgw-0-34-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-34-10_time:4018.5              33.7236 oname:heads.csv_otype:lst_usecol:trgw-0-34-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-34-10_time:4049.5              33.7802 oname:heads.csv_otype:lst_usecol:trgw-0-34-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-34-10_time:4077.5              33.8825 oname:heads.csv_otype:lst_usecol:trgw-0-34-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-34-10_time:4108.5              34.0131 oname:heads.csv_otype:lst_usecol:trgw-0-34-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-34-10_time:4138.5               34.115 oname:heads.csv_otype:lst_usecol:trgw-0-34-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-34-10_time:4169.5              34.1584 oname:heads.csv_otype:lst_usecol:trgw-0-34-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-34-10_time:4199.5              34.1221 oname:heads.csv_otype:lst_usecol:trgw-0-34-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-34-10_time:4230.5               34.007 oname:heads.csv_otype:lst_usecol:trgw-0-34-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-34-10_time:4261.5              33.8412 oname:heads.csv_otype:lst_usecol:trgw-0-34-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-34-10_time:4291.5              33.6693 oname:heads.csv_otype:lst_usecol:trgw-0-34-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-34-10_time:4322.5              33.5247 oname:heads.csv_otype:lst_usecol:trgw-0-34-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-34-10_time:4352.5              33.4508 oname:heads.csv_otype:lst_usecol:trgw-0-34-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-34-10_time:4383.5              33.4964 oname:heads.csv_otype:lst_usecol:trgw-0-34-10                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-9-1_time:3652.5                36.7189   oname:heads.csv_otype:lst_usecol:trgw-0-9-1                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-9-1_time:3683.5                36.7321   oname:heads.csv_otype:lst_usecol:trgw-0-9-1                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-9-1_time:3712.5                36.8333   oname:heads.csv_otype:lst_usecol:trgw-0-9-1                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-9-1_time:3743.5                36.9974   oname:heads.csv_otype:lst_usecol:trgw-0-9-1                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-9-1_time:3773.5                37.1571   oname:heads.csv_otype:lst_usecol:trgw-0-9-1                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-9-1_time:3804.5                37.2645   oname:heads.csv_otype:lst_usecol:trgw-0-9-1                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-9-1_time:3834.5                37.2707   oname:heads.csv_otype:lst_usecol:trgw-0-9-1                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-9-1_time:3865.5                37.1581   oname:heads.csv_otype:lst_usecol:trgw-0-9-1                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-9-1_time:3896.5                36.9443   oname:heads.csv_otype:lst_usecol:trgw-0-9-1                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-9-1_time:3926.5                36.6819   oname:heads.csv_otype:lst_usecol:trgw-0-9-1                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-9-1_time:3957.5                36.4133   oname:heads.csv_otype:lst_usecol:trgw-0-9-1                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-9-1_time:3987.5                36.2067   oname:heads.csv_otype:lst_usecol:trgw-0-9-1                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-9-1_time:4018.5                36.0914   oname:heads.csv_otype:lst_usecol:trgw-0-9-1                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-9-1_time:4049.5                36.0872   oname:heads.csv_otype:lst_usecol:trgw-0-9-1                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-9-1_time:4077.5                36.1731   oname:heads.csv_otype:lst_usecol:trgw-0-9-1                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-9-1_time:4108.5                36.3317   oname:heads.csv_otype:lst_usecol:trgw-0-9-1                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-9-1_time:4138.5                36.4904   oname:heads.csv_otype:lst_usecol:trgw-0-9-1                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-9-1_time:4169.5                36.6006   oname:heads.csv_otype:lst_usecol:trgw-0-9-1                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-9-1_time:4199.5                 36.612   oname:heads.csv_otype:lst_usecol:trgw-0-9-1                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-9-1_time:4230.5                36.5069   oname:heads.csv_otype:lst_usecol:trgw-0-9-1                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-9-1_time:4261.5                36.3021   oname:heads.csv_otype:lst_usecol:trgw-0-9-1                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-9-1_time:4291.5                36.0494   oname:heads.csv_otype:lst_usecol:trgw-0-9-1                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-9-1_time:4322.5                35.7915   oname:heads.csv_otype:lst_usecol:trgw-0-9-1                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-9-1_time:4352.5                35.6024   oname:heads.csv_otype:lst_usecol:trgw-0-9-1                   1
+oname:heads.csv_otype:lst_usecol:trgw-0-9-1_time:4383.5                35.5598   oname:heads.csv_otype:lst_usecol:trgw-0-9-1                   1
 
 
 
@@ -1178,7 +1478,19 @@ PEST SVD Information
        (computed using 'actual' phi)
            (sorted by mean phi)
 group      mean       std       min       max   percent       std
+oname:heads.csv_otype:lst_usecol:trgw-0-13-10         0         0         0         0 -nan(ind) -nan(ind)
 oname:heads.csv_otype:lst_usecol:trgw-0-15-16         0         0         0         0 -nan(ind) -nan(ind)
+oname:heads.csv_otype:lst_usecol:trgw-0-2-15         0         0         0         0 -nan(ind) -nan(ind)
+oname:heads.csv_otype:lst_usecol:trgw-0-2-9         0         0         0         0 -nan(ind) -nan(ind)
+oname:heads.csv_otype:lst_usecol:trgw-0-21-10         0         0         0         0 -nan(ind) -nan(ind)
+oname:heads.csv_otype:lst_usecol:trgw-0-22-15         0         0         0         0 -nan(ind) -nan(ind)
+oname:heads.csv_otype:lst_usecol:trgw-0-24-4         0         0         0         0 -nan(ind) -nan(ind)
+oname:heads.csv_otype:lst_usecol:trgw-0-26-6         0         0         0         0 -nan(ind) -nan(ind)
+oname:heads.csv_otype:lst_usecol:trgw-0-29-15         0         0         0         0 -nan(ind) -nan(ind)
+oname:heads.csv_otype:lst_usecol:trgw-0-3-8         0         0         0         0 -nan(ind) -nan(ind)
+oname:heads.csv_otype:lst_usecol:trgw-0-33-7         0         0         0         0 -nan(ind) -nan(ind)
+oname:heads.csv_otype:lst_usecol:trgw-0-34-10         0         0         0         0 -nan(ind) -nan(ind)
+oname:heads.csv_otype:lst_usecol:trgw-0-9-1         0         0         0         0 -nan(ind) -nan(ind)
     Note: 'percent' is the percentage of the actual phi for each realization.
 
 
@@ -1186,6 +1498,6 @@ oname:heads.csv_otype:lst_usecol:trgw-0-15-16         0         0         0     
 
 
 pestpp-ies analysis complete...
-started at 12/08/24 15:17:24
-finished at 12/08/24 15:17:27
+started at 12/09/24 13:42:28
+finished at 12/09/24 13:42:31
 took 0.0333333 minutes
